@@ -182,7 +182,7 @@ namespace UnityGLTF
 
 		protected string _gltfFileName;
 		protected GLBStream _gltfStream;
-		protected GLTFRoot _gltfRoot;
+		public GLTFRoot _gltfRoot;
 		protected AssetCache _assetCache;
 		protected bool _isRunning = false;
 
